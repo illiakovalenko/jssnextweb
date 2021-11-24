@@ -13,9 +13,9 @@ import {
 import NextLink from 'next/link';
 import {
   ConnectedDemoQueryDocument,
-  JssnextwebAppRoute as AppRoute,
+  JssNextWebAppRoute as AppRoute,
   Item,
-  JssnextwebGraphQlConnectedDemo as GrapQLConnectedDemoDatasource,
+  JssNextWebGraphQlConnectedDemo as GrapQLConnectedDemoDatasource,
 } from './GraphQL-ConnectedDemo.dynamic.graphql';
 import { StyleguideComponentProps } from 'lib/component-props';
 import config from 'temp/config';

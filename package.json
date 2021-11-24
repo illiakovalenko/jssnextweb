@@ -4,9 +4,9 @@
   "version": "20.0.0-canary.72",
   "private": true,
   "config": {
-    "appName": "jssnextweb",
+    "appName": "JssNextWeb",
     "rootPlaceholders": [
-      "jssnextweb-jss-main"
+      "JssNextWeb-jss-main"
     ],
     "sitecoreConfigPath": "/App_Config/Include/zzz",
     "graphQLEndpointPath": "/sitecore/api/graph/edge",

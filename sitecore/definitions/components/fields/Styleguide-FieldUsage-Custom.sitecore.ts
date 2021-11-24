@@ -8,7 +8,7 @@ import { SitecoreIcon, Manifest } from '@sitecore-jss/sitecore-jss-dev-tools';
 export default function StyleguideFieldUsageCustom(manifest: Manifest): void {
   manifest.addComponent({
     name: 'Styleguide-FieldUsage-Custom',
-    templateName: 'Jssnextweb-Styleguide-FieldUsage-Custom',
+    templateName: 'JssNextWeb-Styleguide-FieldUsage-Custom',
     icon: SitecoreIcon.Gearwheel,
     // NOTE: not using 'CommonFieldTypes' here, because it's a custom field.
     // The 'Integer' field ships with Sitecore; something really custom would need to be
@@ -16,6 +16,6 @@ export default function StyleguideFieldUsageCustom(manifest: Manifest): void {
     fields: [{ name: 'customIntField', type: 'Integer' }],
     // inherit fields from another template (../templates/Styleguide-Explanatory-Component)
     // inheritance adds fields defined on the base template(s) implicitly to this component
-    inherits: ['Jssnextweb-styleguide-explanatory-component-template'],
+    inherits: ['JssNextWeb-styleguide-explanatory-component-template'],
   });
 }

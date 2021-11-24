@@ -9,7 +9,7 @@ import packageJson from '../../../../package.json';
 export default function StyleguideFieldUsageContentList(manifest: Manifest): void {
   manifest.addComponent({
     name: 'Styleguide-FieldUsage-ContentList',
-    templateName: 'Jssnextweb-Styleguide-FieldUsage-ContentList',
+    templateName: 'JssNextWeb-Styleguide-FieldUsage-ContentList',
     icon: SitecoreIcon.ListStyle_numbered,
     fields: [
       {
@@ -25,6 +25,6 @@ export default function StyleguideFieldUsageContentList(manifest: Manifest): voi
     ],
     // inherit fields from another template (../templates/Styleguide-Explanatory-Component)
     // inheritance adds fields defined on the base template(s) implicitly to this component
-    inherits: ['Jssnextweb-styleguide-explanatory-component-template'],
+    inherits: ['JssNextWeb-styleguide-explanatory-component-template'],
   });
 }

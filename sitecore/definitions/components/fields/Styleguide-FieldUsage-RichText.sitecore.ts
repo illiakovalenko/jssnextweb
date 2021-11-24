@@ -8,7 +8,7 @@ import { CommonFieldTypes, SitecoreIcon, Manifest } from '@sitecore-jss/sitecore
 export default function StyleguideFieldUsageRichText(manifest: Manifest): void {
   manifest.addComponent({
     name: 'Styleguide-FieldUsage-RichText',
-    templateName: 'Jssnextweb-Styleguide-FieldUsage-RichText',
+    templateName: 'JssNextWeb-Styleguide-FieldUsage-RichText',
     icon: SitecoreIcon.TextField,
     fields: [
       { name: 'sample', type: CommonFieldTypes.RichText },
@@ -21,6 +21,6 @@ export default function StyleguideFieldUsageRichText(manifest: Manifest): void {
     ],
     // inherit fields from another template (../templates/Styleguide-Explanatory-Component)
     // inheritance adds fields defined on the base template(s) implicitly to this component
-    inherits: ['Jssnextweb-styleguide-explanatory-component-template'],
+    inherits: ['JssNextWeb-styleguide-explanatory-component-template'],
   });
 }

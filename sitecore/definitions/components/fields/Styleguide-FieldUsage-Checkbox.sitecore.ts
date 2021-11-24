@@ -8,7 +8,7 @@ import { CommonFieldTypes, SitecoreIcon, Manifest } from '@sitecore-jss/sitecore
 export default function StyleguideFieldUsageCheckbox(manifest: Manifest): void {
   manifest.addComponent({
     name: 'Styleguide-FieldUsage-Checkbox',
-    templateName: 'Jssnextweb-Styleguide-FieldUsage-Checkbox',
+    templateName: 'JssNextWeb-Styleguide-FieldUsage-Checkbox',
     icon: SitecoreIcon.CheckboxSelected,
     fields: [
       { name: 'checkbox', type: CommonFieldTypes.Checkbox },
@@ -16,6 +16,6 @@ export default function StyleguideFieldUsageCheckbox(manifest: Manifest): void {
     ],
     // inherit fields from another template (../templates/Styleguide-Explanatory-Component)
     // inheritance adds fields defined on the base template(s) implicitly to this component
-    inherits: ['Jssnextweb-styleguide-explanatory-component-template'],
+    inherits: ['JssNextWeb-styleguide-explanatory-component-template'],
   });
 }

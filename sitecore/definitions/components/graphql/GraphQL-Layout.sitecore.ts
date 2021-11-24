@@ -8,8 +8,8 @@ import { SitecoreIcon, Manifest } from '@sitecore-jss/sitecore-jss-dev-tools';
 export default function GraphQLLayout(manifest: Manifest): void {
   manifest.addComponent({
     name: 'GraphQL-Layout',
-    templateName: 'Jssnextweb-GraphQL-Layout',
+    templateName: 'JssNextWeb-GraphQL-Layout',
     icon: SitecoreIcon.Layout,
-    placeholders: ['jssnextweb-jss-graphql-layout'],
+    placeholders: ['JssNextWeb-jss-graphql-layout'],
   });
 }

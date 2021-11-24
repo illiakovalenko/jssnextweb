@@ -28,7 +28,7 @@ const GraphQLLayout = ({ rendering }: StyleguideComponentProps): JSX.Element => 
         </>
       )}
       {!disconnectedMode && (
-        <Placeholder name="jssnextweb-jss-graphql-layout" rendering={rendering} />
+        <Placeholder name="JssNextWeb-jss-graphql-layout" rendering={rendering} />
       )}
     </div>
   );
