@@ -66,6 +66,8 @@ type GraphQlIntegratedDemoProps = StyleguideComponentProps & {
 const GraphQLIntegratedDemo = (props: GraphQlIntegratedDemoProps): JSX.Element => {
   // Query results in integrated GraphQL replace the normal `fields` data
   // i.e. with { data, }
+  return <div>True</div>;
+
   const { datasource, contextItem } = props.fields.data;
 
   return (
